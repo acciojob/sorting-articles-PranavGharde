@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background-color: #f4f4f4;
+}
+
+ul#band {
+  list-style: none;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul#band li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+ul#band li:last-child {
+  border-bottom: none;
+}
